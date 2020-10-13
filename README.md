@@ -18,6 +18,7 @@ Information-Getting Functions:
 
 •	get_results(method) - returns the prediction[] and target[] lists for whichever classifying method is passed into the header ("NB", "SCIKIT NB", or "SCIKIT SVM"). For use when getting the results from ElisabethImplementation.py to another class, such as sam_confusion_matrix.py, which creates and saves a confusion matrix based on the given target and prediction lists
 
+
 Naive Bayes-Specific Functions:
 
 •	create_dtfm(dicts) - creates the document term frequency matrix (shortened to "dtfm") given a list of dictionaries in the parameters (such as train_ticket_dicts[] or test_ticket_dicts[]); returns a list of lists with the first element being a list of the unique vocabulary words and all elements after that being a list of numbers for frequency of words for every ticket with a total of amount of words at the end of the list (ex: [[word, bleh, wow], [1, 0, 0, 1], [0, 2, 1, 3], [1, 1, 1, 3]])*
