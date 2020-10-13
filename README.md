@@ -7,6 +7,7 @@ User Guide for ElisabethImplementation.py
 Code and User Guide by Elisabeth Holm
 
 Information-Getting Functions:
+
 •	get_categories()- creates a list of all the categories (categories[]); in order to play with the amount of categories or which specific ones to go through, you can change the categories list and the rest of the code will continue to run smoothly
 
 •	get_ticket_info(current_num, cat)- creates lists ticket_bodies[], ticket_nums[], and ticket_dicts[], three lists with corresponding indexes for each ticket in each category with the body, ticket number, and dictionary for that ticket; parameters are used because this function is called during an iteration through all the tickets in all the categories in get_targets()
@@ -18,6 +19,7 @@ Information-Getting Functions:
 •	get_results(method) - returns the prediction[] and target[] lists for whichever classifying method is passed into the header ("NB", "SCIKIT NB", or "SCIKIT SVM"). For use when getting the results from ElisabethImplementation.py to another class, such as sam_confusion_matrix.py, which creates and saves a confusion matrix based on the given target and prediction lists
 
 Naive Bayes-Specific Functions:
+
 •	create_dtfm(dicts) - creates the document term frequency matrix (shortened to "dtfm") given a list of dictionaries in the parameters (such as train_ticket_dicts[] or test_ticket_dicts[]); returns a list of lists with the first element being a list of the unique vocabulary words and all elements after that being a list of numbers for frequency of words for every ticket with a total of amount of words at the end of the list (ex: [[word, bleh, wow], [1, 0, 0, 1], [0, 2, 1, 3], [1, 1, 1, 3]])*
 
 •	create_dtfm_without_dicts(bodies) - creates and returns the same document term frequency matrix as the previous function but when only given a list of ticket bodies, not a list of dictionaries; currently this function is not being used because all the tickets have dictionaries, but it may be useful in the future when we may be simply given text and not a premade dictionary for each ticket
