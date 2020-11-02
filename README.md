@@ -1,6 +1,8 @@
-# Supervised-Machine-Learning-Text-Classification
-Project: REHS Text Classification via Supervised Machine Learning for an Issue Tracking System
+# Supervised Machine Learning Text Classification
+Research Project: Text Classification via Supervised Machine Learning for an Issue Tracking System
+
 Mentor: Dr. Martin Kandes
+
 Organization: San Diego Supercomputer Center
 
 User Guide for ElisabethImplementation.py
