@@ -1,6 +1,6 @@
 # Supervised-Machine-Learning-Text-Classification
 Project: REHS Text Classification via Supervised Machine Learning for an Issue Tracking System
-Mentor: Dr.Martin Kandes
+Mentor: Dr. Martin Kandes
 Organization: San Diego Supercomputer Center
 
 User Guide for ElisabethImplementation.py
@@ -34,10 +34,13 @@ Naive Bayes-Specific Functions:
 
 Alternate/Advanced Implemented Methods (All created using scikit at the bottom of the code (lines 285-386)):
 •	Naive Bayes (using scikit instead)
+
 •	Naive Bayes + Grid Search
+
 •	Support Vector Machines (SVM)
+
 •	Logistic Regression (Does not currently work but could be something to look into further, currently commented out to avoid code stopping due to errors)
 
 
 
-*This code was created for a 2019 summer internship at the Supercomputer center.
+*This code was created during a 2019 Summer Research Internship at the San Diego Supercomputer Center.
