@@ -8,6 +8,8 @@ Organization: San Diego Supercomputer Center
 User Guide for ElisabethImplementation.py
 Code and User Guide by Elisabeth Holm
 
+NOTE: Data (~2500 "tickets" from Supercomputer users sorted into one of 19 categories is NOT included in the github version of this project for security purposes)
+
 Information-Getting Functions:
 
 •	get_categories()- creates a list of all the categories (categories[]); in order to play with the amount of categories or which specific ones to go through, you can change the categories list and the rest of the code will continue to run smoothly
